@@ -1,0 +1,31 @@
+<view>
+  <van-dropdown-menu class="dropdown">
+    <van-dropdown-item  bind:change="change_page" value="{{value}}" options="{{ option }}" />
+  </van-dropdown-menu>
+</view>
+<view class="header">
+    <image class="header-image" src="https://img11.360buyimg.com/ddimg/jfs/t1/190543/17/14781/3419/60fe577cE51b358fb/40827ff8c0e2583f.jpg" mode="center"></image>
+</view>
+<view class="center">
+  <view class="center-upper">
+    <view class="center-upper1">
+      <text class="center-upper1-text">实时视频入侵检测系统</text>
+    </view>
+    <view class="center-upper2">
+      <text class="center-upper2-text">BJTU Video Intrusion Detection System</text>
+    </view>
+    <view class="center-upper3">
+      <button class="login-button" bindtap="jump_page">登录</button>
+    </view>
+    <view class="center-upper3">
+      <button class="login-button" bindtap="get_video">监控观看</button>
+    </view>
+  </view>
+  <view class="center-mid">
+    <image class="magic-cube" src="https://ccdn.goodq.top/caches/4ce61cd756c0c3467de0977d6849043b/aHR0cHM6Ly81N2VhMjM2MDM2OWI1LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTEvOWNmY2M4YWI1NmQ0Nzk2NGI2ZjFlMzFjNWE2ODMwYjMtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp" mode="aspectFit"></image>
+  </view>
+</view>
+<view class="bottom">
+  <text class = "bottom-text">版权所有 ©2021 北京市海淀区上园村3号\n</text>
+  <text class="bottom-text">京ICP备00000000000号</text>
+</view>

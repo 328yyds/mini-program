@@ -1,0 +1,55 @@
+page{
+  width:100vw;
+}
+.center {
+  height:92vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(https://ccdn.goodq.top/caches/4ce61cd756c0c3467de0977d6849043b/aHR0cHM6Ly81N2VhMjM2MDM2OWI1LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTEvODRiNzE4MzE0NDVlZGVhMjgzMzk0ZDBiODYyN2UyZjEtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp);
+  background-size:300%;
+  padding:10%;
+}
+
+.header {
+  background-color: #22282d;
+}
+
+.header-image {
+  width: 750rpx;
+  height: 8vh;
+}
+
+.page__title{
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: '微軟正黑體';
+}
+
+.info{
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 80%;
+  background: rgb(82, 82, 82);
+  border: 5px solid #f1501a;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  height: auto;
+  padding: 0 0 0 40rpx;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.info-text{
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #ffffff;
+}

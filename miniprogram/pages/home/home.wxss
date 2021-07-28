@@ -1,0 +1,90 @@
+page {
+  height: 100vh;
+}
+
+.header {
+  background-color: #22282d;
+}
+
+.header-image {
+  width: 750rpx;
+  height: 60rpx;
+}
+
+.dropdown {
+  --dropdown-menu-background-color: #F1501A;
+  --dropdown-menu-title-text-color:#ffffff;
+  --dropdown-menu-title-active-text-color: #ffffff;
+}
+
+.center {
+  height: 1200rpx;
+  background-image: url(https://ccdn.goodq.top/caches/4ce61cd756c0c3467de0977d6849043b/aHR0cHM6Ly81N2VhMjM2MDM2OWI1LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTEvODRiNzE4MzE0NDVlZGVhMjgzMzk0ZDBiODYyN2UyZjEtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp);
+  background-size:300%;
+}
+
+.center-upper {
+  padding: 50rpx;
+}
+
+.center-upper1 {
+  padding-top: 100rpx;
+  text-align: center;
+}
+.center-upper2 {
+  padding-top:  70rpx;
+  text-align: center;
+}
+
+.center-upper3 {
+  padding-top: 70rpx;
+  text-align: center;
+}
+
+.center-upper1-text {
+  color: white;
+  font-family: '微軟正黑體';
+  font-size: 45rpx;
+  font-weight: bolder;
+}
+
+.center-upper2-text {
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28rpx;
+}
+
+.center-mid {
+  padding-left: 80rpx;
+  display: flex;
+  width: 750rpx;
+  align-items: center;
+  justify-items: center;
+}
+
+.login-button {
+  background-color:#F1501A;
+}
+
+
+
+@keyframes box-ani {
+  from {transform: rotate(0)}
+  to {transform: rotate(360deg)}
+}
+.magic-cube {
+  border-radius:80%;
+  position:relative;
+  animation: box-ani 50s  infinite linear;
+}
+
+.bottom {
+  background-color: #22282d;
+  text-align: center;
+}
+
+.bottom-text{
+  font-size: 25rpx;
+  color: #a9a9a9;
+  text-align: center;
+}

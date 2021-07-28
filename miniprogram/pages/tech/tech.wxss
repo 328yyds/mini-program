@@ -1,0 +1,120 @@
+/* pages/home/serve.wxss */
+
+.dropdown {
+  --dropdown-menu-background-color: #F1501A;
+  --dropdown-menu-title-text-color:#ffffff;
+  --dropdown-menu-title-active-text-color: #ffffff;
+}
+
+.header {
+  background-color: #22282d;
+}
+
+.header-image {
+  width: 750rpx;
+  height: 60rpx;
+}
+
+.top_view{
+  background-image:url(https://z3.ax1x.com/2021/07/26/WRXe1I.png) ;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  width: 100%;
+  height: 10rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
+
+.top_left_text{
+  font-size:20px;      /*设置文字字号*/
+  color:black;           /*设置文字颜色*/
+  font-weight:bold;    /*设置字体加粗*/
+  font-family:"微软雅黑"; 
+}
+
+.top_right_text{
+  font-size:20px;      /*设置文字字号*/
+  color:#F1501A;           /*设置文字颜色*/
+  font-weight:bold;    /*设置字体加粗*/
+  font-family:"微软雅黑"; 
+}
+
+.mid_top_view{
+  display:flex;
+  justify-content:center;
+}
+
+.first_img{
+  width: 250rpx;
+  height: 200rpx;
+  padding: 80rpx 62.5rpx 20rpx 62.5rpx;
+}
+
+.second_img{
+  width: 250rpx;
+  height: 200rpx;
+  padding: 80rpx 62.5rpx 20rpx 62.5rpx;
+}
+
+.mid_bottom_view{
+  display:flex;
+  justify-content:center;
+}
+
+.third_img{
+  width: 250rpx;
+  height: 200rpx;
+  padding: 10rpx 62.5rpx 20rpx 62.5rpx;
+}
+
+.forth_img{
+  width: 250rpx;
+  height: 200rpx;
+  padding: 10rpx 62.5rpx 20rpx 62.5rpx;
+}
+
+.feature_text{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:20px;      /*设置文字字号*/
+  color:rgb(239, 79, 25);           /*设置文字颜色*/
+  font-family:"微软雅黑";
+}
+
+.describe_text{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 40rpx 0;
+  font-size:14px;      /*设置文字字号*/
+  color:#808080;           /*设置文字颜色*/
+  font-family:"微软雅黑";
+}
+
+.nameImage{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.second_view{
+  width: 50%;
+  height: 20rem;
+}
+
+.bottom {
+  background-color: #22282d;
+  text-align: center;
+}
+
+.bottom-text{
+  font-size: 25rpx;
+  color: #a9a9a9;
+  text-align: center;
+}

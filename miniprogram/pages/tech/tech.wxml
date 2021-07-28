@@ -1,0 +1,44 @@
+<!--pages/home/serve.wxml-->
+
+<view>
+  <van-dropdown-menu class="dropdown">
+    <van-dropdown-item bind:change="change_page" value="{{ value1 }}" options="{{ option1 }}" />
+  </van-dropdown-menu>
+</view>
+<view class="header">
+    <image class="header-image" src="https://img11.360buyimg.com/ddimg/jfs/t1/190543/17/14781/3419/60fe577cE51b358fb/40827ff8c0e2583f.jpg" mode="center"></image>
+</view>
+<view class="top_view">
+  <view class="top_left_text">软件平台</view>
+  <view class="top_right_text">核心优势</view>
+</view>
+<view class="mid_top_view">
+  <view class="first_view">
+    <image class="first_img" src="../../images/first_pic.png"></image>
+    <view class="feature_text">特点1</view>
+    <view class="describe_text">描述性语言</view>
+  </view>
+  <view class="second_view">
+    <image class="second_img" src="../../images/second_pic.png"></image>
+    <view class="feature_text">特点2</view>
+    <view class="describe_text">描述性语言</view>
+  </view>
+</view>
+
+<view class="mid_bottom_view">
+  <view class="third_view">
+    <image class="third_img" src="../../images/third_pic.png"></image>
+    <view class="feature_text">特点3</view>
+    <view class="describe_text">描述性语言</view>
+  </view>
+  <view class="forth_view">
+    <image class="forth_img" src="../../images/forth_pic.png"></image>
+    <view class="feature_text">特点4</view>
+    <view class="describe_text">描述性语言</view>
+  </view>
+</view>
+
+<view class="bottom">
+  <text class = "bottom-text">版权所有 ©2021 北京市海淀区上园村3号\n</text>
+  <text class="bottom-text">京ICP备00000000000号</text>
+</view>

@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="header">
+    <image class="header-image"
+      src="https://img11.360buyimg.com/ddimg/jfs/t1/190543/17/14781/3419/60fe577cE51b358fb/40827ff8c0e2583f.jpg"
+      mode="center"></image>
+  </view>
+  <view class="list">
+    <view class="list-item" bindtap="testCgi">
+      <text class="black">告警信息</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">入侵发生日期：{{array.date}}</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">入侵发生时间：未知</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">入侵告警类型：{{array.type}}</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">入侵人员信息：未知</text>
+    </view>
+    <view class="list-item">
+      <image class="image1" src="{{image}}" mode="aspectFit"></image>
+    </view>
+  </view>
+
+  <view class="guide">
+    <!-- <image class="image1" src="{{imagePath}}" mode="aspectFit"></image> -->
+    <text class="headline">查看具体的入侵视频信息</text>
+    <text class="p">1. 打开实时视频入侵检测Web端</text>
+    <!-- <image class="image1" src="../../images/console-entrance.png" mode="aspectFit"></image> -->
+    <text class="p">2. 切换到告警信息页</text>
+    <text class="p">3. 查看具体的入侵视频信息</text>
+  </view>
+
+</view>

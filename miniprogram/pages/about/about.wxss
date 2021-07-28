@@ -1,0 +1,72 @@
+page {
+  background-color: rgb(117, 117, 117);
+}
+.dropdown {
+  --dropdown-menu-background-color: #F1501A;
+  --dropdown-menu-title-text-color:#ffffff;
+  --dropdown-menu-title-active-text-color: #ffffff;
+}
+
+.header {
+  background-color: #22282d;
+}
+
+.upper {
+  border: 5px inherit rgba(41, 41, 41, 0.658)
+}
+
+.header-image {
+  width: 750rpx;
+  height: 60rpx;
+}
+
+.six-angle {
+  width: 750rpx;
+  background-color: #22282D;
+}
+
+.title {
+  padding: 5%;
+}
+
+.title-text {
+  font-family: "微軟正黑體";
+  font-weight: bolder;
+}
+
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.content-text {
+  font-family: "微軟正黑體";
+  font-weight: bolder;
+}
+
+.middle {
+  margin-top: 10%;
+
+}
+
+.mid-text {
+  margin: 5%;
+  font-family: "微軟正黑體";
+  font-weight: bolder;
+}
+
+.picture {
+  width: 100vw;
+  height: 80vw;
+}
+
+.bottom {
+  background-color: #22282d;
+  text-align: center;
+}
+
+.bottom-text{
+  font-size: 25rpx;
+  color: #a9a9a9;
+  text-align: center;
+}

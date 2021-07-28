@@ -1,0 +1,12 @@
+<view class="header">
+  <image class="header-image"
+    src="https://img11.360buyimg.com/ddimg/jfs/t1/190543/17/14781/3419/60fe577cE51b358fb/40827ff8c0e2583f.jpg"
+    mode="aspectFit"></image>
+</view>
+<view class="center">
+  <input class="url" bindinput="refresh" placeholder="请输入监控端地址"/>
+  <view class="container">
+    <image class="video" src="{{address}}" mode="scaleToFill"/>
+  </view>
+  <button class="ensure" bindtap="getSync">观看监控</button>
+</view>

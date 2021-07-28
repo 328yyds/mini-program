@@ -1,0 +1,13 @@
+@import "../../style/guide.wxss";
+.header {
+  background-color: #22282d;
+}
+
+.header-image {
+  width: 750rpx;
+  height: 60rpx;
+}
+
+.black {
+  color: rgb(255, 255, 255);
+}

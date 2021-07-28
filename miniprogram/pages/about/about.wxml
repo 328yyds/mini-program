@@ -1,0 +1,33 @@
+<view>
+  <van-dropdown-menu class="dropdown">
+    <van-dropdown-item bind:change="change_page" value="{{value}}" options="{{ option }}" />
+  </van-dropdown-menu>
+</view>
+
+<view class="header">
+  <image class="header-image"
+    src="https://img11.360buyimg.com/ddimg/jfs/t1/190543/17/14781/3419/60fe577cE51b358fb/40827ff8c0e2583f.jpg"
+    mode="center"></image>
+</view>
+<view class="upper">
+  <image class="six-angle"
+    src="https://img12.360buyimg.com/ddimg/jfs/t1/190069/28/15172/78552/60fed1b5Ec9496e60/8ab92ec9b15ba872.png"
+    mode="widthFix" />
+  <view class="title">
+    <text class="title-text">我们的目标\n</text>
+  </view>
+  <view class="content">
+    <text class="content-text">用科技改变生活。不断寻找科技中的突破点并将之运用到我们的生活当中，提升生活，改造生活。
+      面对生活中的困难，用科技力量去将其化解，是我们共同的梦想</text>
+  </view>
+</view>
+<view class="middle">
+  <view class="picture">
+    <image class="picture"
+      src="https://img13.360buyimg.com/ddimg/jfs/t1/188410/18/15088/792906/60feccc4Eceff08ca/1b4341d50eda3447.jpg" mode="aspectFill"></image>
+  </view>
+</view>
+<view class="bottom">
+  <text class = "bottom-text">版权所有 ©2021 北京市海淀区上园村3号\n</text>
+  <text class="bottom-text">京ICP备00000000000号</text>
+</view>
