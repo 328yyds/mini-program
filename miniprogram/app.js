@@ -3,7 +3,7 @@ App({
   globalData: {
     id: null,
     check: false,
-    globalReqUrl: "http://localhost:8000",
+    globalReqUrl: "http://192.168.137.1:8000",
     index: null,
     array:[{
       date: "2021-12-12",

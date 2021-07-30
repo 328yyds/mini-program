@@ -19,7 +19,8 @@ Page({
 
   getSync: function(e) {
     this.setData({
-      address: app.globalData.globalReqUrl + '/video/' + this.data.inputValue
+      address: app.globalData.globalReqUrl + '/video_area/' + this.data.inputValue +
+      ":x=50:y=50:w=200:h=200"
     })
   },
 

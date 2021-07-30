@@ -4,7 +4,7 @@
       src="https://img11.360buyimg.com/ddimg/jfs/t1/190543/17/14781/3419/60fe577cE51b358fb/40827ff8c0e2583f.jpg"
       mode="center"></image>
   </view>
-  <view class="center">
+  <scroll-view scroll-y="true" class="center">
     <view class="page__hd">
       <text class="page__title">告警记录查看</text>
       <view class="for" wx:for="{{array}}">
@@ -15,5 +15,5 @@
         </view>
       </view>
     </view>
-  </view>
+  </scroll-view>
 </view>
